@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <h1 class="top">Visit Doncaster</h1>
+        <h4 class="description">Enjoy the culture and sports in this vibrant district. Close to all good places.</h4>
+    </div>
+
+
+    <div class="second">
+                    <h4 class="head">Top three activities to do in Doncaster</h4>
+        <div class="cards">
+            <div class="box1">
+                <img src="empty.jpg" alt="first" class="first">
+                <h4>Attend a show or a concert</h4>
+                <p>The torshov Theatre is a great place to spend your night out</p>
+            </div>
+                    <div class="box2">
+                        <img src="empty.jpg" alt="first" class="first">
+                        <h4>Attend a show or a concert</h4>
+                        <p>The torshov Theatre is a great place to spend your night out</p>
+            </div>
+                    <div class="box3">
+                    <img src="empty.jpg" alt="first" class="first">
+                    <h4>Attend a show or a concert</h4>
+                    <p>The torshov Theatre is a great place to spend your night out</p>
+            </div>
+        </div>
+    </div>
+
+<div class="card">
+    <div class="img-card2"><img class="img-card" src="empty.jpg" alt=""></div>
+    <div class="details">
+        <h1>Your Guide</h1>
+         <p>Find out more about Doncaster and what it has to offer</p>
+         <h4>Intrepid Tech Services</h4>
+    </div>
+
+
+</div>
+
+<div id="form-main">
+
+    <form class="form-login">
+        <h1 class="form-head">Create Account</h1>
+        <p id="welcome-el">Welcome,</p>
+        <div class="name1">
+            <h3>Your Name</h3>
+            <input type="text" placeholder="Your Name" class="input-name">
+        </div>
+            <div class="name1">
+            <h3>Email Address</h3>
+            <input type="email" placeholder="Email Address" class="input-email">
+        </div>
+            <div class="name1">
+            <h3>Your Password</h3>
+        <input type="password" placeholder="**********" class="Password"></textarea>
+            </div>
+                <h1 id="count-el">0</h1>
+        <button id="increase" type="button" class="submit-button">Submit</button>
+                
+        <button id="increase-btn" type="button" onclick="increment()" class="submit-button">Increase</button>
+        <button id="error-btn" type="button" onclick="errorMessage()" class="save-button">Save</button>
+        <p id="error-el"></p>
+
+    </form>
+</div>
+
+<div>
+    <div class="numbers">
+        <h3 id="num1">0</h3>
+        <h3 id="num2">0</h3>
+    </div>
+
+    <button id="add-el" onclick="add()" type="button">Add</button>
+    <button id="subtract-el" onclick="subtract()" type="button">Subtract</button>
+    <button id="multiply-el" onclick="multiply()" type="button">Multiply</button>
+    <button id="divide-el" onclick="divide()" type="button">Divide</button>
+
+    <div class="numbers">
+        <h3>Sum Total: </h3>
+        <h3 id="sum">0</h3>
+    </div>
+</div>
+
+<div id="card-main">
+    <div class="card-home">
+        <h1 class="h1-2">HOME</h1>
+        <h2 id="score-el">0</h2>
+        <div class="buttons">
+            <button id="add1" onclick="increaseScore1()" type="button">+1</button>
+            <button id="add2" onclick="increaseScore2()" type="button">+2</button>
+            <button id="add3" onclick="increaseScore3()" type="button">+3</button>
+            <button id="add34" onclick="resetScoreHome()" type="button">C</button>
+        </div>
+    </div>
+
+    <div class="card-guest">
+        <h1 class="h1-2">GUEST</h1>
+        <h2 id="score-el2">0</h2>
+        <div class="buttons">
+            <button id="add11" onclick="increaseScore11()" type="button">+1</button>
+            <button id="add22" onclick="increaseScore22()" type="button">+2</button>
+            <button id="add33" onclick="increaseScore33()" type="button">+3</button>
+            <button id="add34" onclick="resetScoreGuest()" type="button">C</button>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
