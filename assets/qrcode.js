@@ -1,6 +1,6 @@
 let imageUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=";
-let inputEl = document.getElementById("input-el");
-let imgEl = document.getElementById("qrImage");
+let inputEl = document.getElementById("input-el") ;
+let imgEl = document.getElementById("qrImage" );
 let mainUrl = inputEl.value;
 
 
